@@ -1,67 +1,74 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jan Yvan Garcia | Portfolio</title>
 
-body {
-    font-family: Arial, sans-serif;
-    background: #0d1117;
-    color: #f0f6fc;
-    line-height: 1.6;
-}
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
 
-header {
-    background: linear-gradient(135deg, #2193b0, #6dd5ed);
-    color: white;
-    text-align: center;
-    padding: 80px 20px;
-}
+<body>
 
-header h1 {
-    font-size: 3rem;
-    margin-bottom: 10px;
-}
+<header>
+    <h1>Jan Yvan Garcia</h1>
+    <p>Computer Engineering Graduate | Aspiring Software & Web Developer</p>
+</header>
 
-header p {
-    font-size: 1.2rem;
-}
+<section id="about">
+    <h2>👨‍💻 About Me</h2>
 
-section {
-    max-width: 900px;
-    margin: 60px auto;
-    padding: 0 20px;
-}
+    <p>
+        Hello! I'm <strong>Jan Yvan Garcia</strong>, a Computer Engineering graduate
+        passionate about software development, web development, and embedded systems.
+        I enjoy learning new technologies and building projects that solve real-world problems.
+    </p>
+</section>
 
-section h2 {
-    color: #58a6ff;
-    margin-bottom: 20px;
-    border-bottom: 2px solid #58a6ff;
-    display: inline-block;
-    padding-bottom: 5px;
-}
+<section id="projects">
+    <h2>📂 Featured Project</h2>
 
-.card {
-    background: #161b22;
-    padding: 20px;
-    border-radius: 12px;
-    margin-top: 20px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-}
+    <div class="card">
+        <h3>Logic Circuit Trainer Board for Digital Electronics Education</h3>
 
-a {
-    color: #58a6ff;
-    text-decoration: none;
-    font-weight: bold;
-}
+        <p>
+            Designed and developed a Logic Circuit Trainer Board to improve digital
+            electronics education through practical laboratory activities.
+        </p>
+    </div>
+</section>
 
-a:hover {
-    text-decoration: underline;
-}
+<section id="skills">
+    <h2>🛠 Skills</h2>
 
-footer {
-    text-align: center;
-    padding: 30px;
-    background: #161b22;
-    margin-top: 50px;
-}
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript (Beginner)</li>
+        <li>C Programming</li>
+        <li>Git & GitHub</li>
+        <li>Arduino</li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h2>🌐 Connect With Me</h2>
+
+    <p>
+        Instagram:
+        <a href="https://www.instagram.com/yvanrgarcia/" target="_blank">
+            @yvanrgarcia
+        </a>
+    </p>
+</section>
+
+<footer>
+    <p>© 2026 Jan Yvan Garcia. All Rights Reserved.</p>
+</footer>
+
+<!-- JavaScript -->
+<script src="script.js"></script>
+
+</body>
+</html>
